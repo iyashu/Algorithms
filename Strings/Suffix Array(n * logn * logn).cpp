@@ -17,6 +17,11 @@ LCP function is used to get the longest common prefix of two suffixes.
 Complexity O(log N)
 
 */
+/*
+References: 
+    http://web.stanford.edu/class/cs97si/suffix-array.pdf
+    https://www.quora.com/What-are-some-of-the-good-sources-to-understand-suffix-tree-suffix-array-and-their-implementation
+*/
 #define MAXL 100005
 #define MAXLG 17    // smallest power of 2 greater than MAXL
 char* S; int N, stp;
