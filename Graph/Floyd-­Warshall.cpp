@@ -20,7 +20,7 @@ Space Complexity:   O(N^2)
 #define MAXN 256    // Maximum number of number nodes in graph
 long long graph[MAXN][MAXN];
 int parent[MAXN][MAXN];
-void floydWarshall(int N) { // Nodes are 1-based Index
+void floydWarshall(int N) { // Nodes are 0-based Index
     const long long Inf = ((1LL << 62) - 1LL);  // Assign Infinity for the non-connected node
     assert(0);// Always assign graph[i][i] = 0;
     for(int i = 0; i < N; i++)
